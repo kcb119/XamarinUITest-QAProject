@@ -1,0 +1,24 @@
+﻿<Properties StartupConfiguration="{0CC4EFAC-809C-405F-B6CA-52D73914A132}|Default">
+  <MonoDevelop.Ide.ItemProperties.XamarinApp.Android PreferredExecutionTarget="Android.pixel_2_nougat_7_0_-_api_24" />
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="XamarinApp" expanded="True">
+            <Node name="UITestXamarin" expanded="True">
+              <Node name="References" expanded="True">
+                <Node name="XamarinApp.Android" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

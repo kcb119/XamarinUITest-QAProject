@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="XamarinApp.MainPage"
+             Title="App para pruebas">
+
+    <StackLayout Margin="30" Orientation="Vertical">
+        <!-- Place new controls here -->
+        <Label x:Name="lblBienvenido" 
+               AutomationId="InicioLogin"
+               Text="Bienvenido" 
+               HorizontalOptions="Center"
+               VerticalOptions="CenterAndExpand"
+               FontSize="Large" />
+
+        <Label x:Name="lblError"
+                   AutomationId="ResultMsg"
+                   Text=""
+                   VerticalOptions="CenterAndExpand" 
+                   HorizontalOptions="CenterAndExpand"
+                   FontSize="Large"
+                   TextColor="Red" />
+
+        <Entry x:Name="txtCedula"
+                   AutomationId="EntryCedula"
+                   Text=""
+                   VerticalOptions="CenterAndExpand"
+                   HorizontalOptions="CenterAndExpand"
+                   WidthRequest="250"
+                   Placeholder="N. Cédula" />
+
+        <Entry x:Name="txtContrasenna"
+                   AutomationId="EntryContrasenna"
+                   Text=""
+                   VerticalOptions="CenterAndExpand"
+                   HorizontalOptions="CenterAndExpand"
+                   WidthRequest="250"
+                   Placeholder="Contraseña"
+                   IsPassword="true" />
+
+        <Button x:Name="btnLogin"
+                AutomationId="ButtonLogin"
+                Text="Login"
+                VerticalOptions="Center"
+                HorizontalOptions="CenterAndExpand"
+                WidthRequest="200"
+                FontSize="Medium"
+                BackgroundColor="#569f60" /> 
+
+        <Button x:Name="btnPaginaRegistro"
+                AutomationId="AddUser"
+                Text="Crear Registro"
+                VerticalOptions="Center"
+                HorizontalOptions="CenterAndExpand"
+                WidthRequest="200"
+                FontSize="Medium"
+                BackgroundColor="#4146e7" />
+
+    </StackLayout>
+
+</ContentPage>

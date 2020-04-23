@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="XamarinApp.IniPage"
+             Title="Inicio">
+    <ContentPage.Content>
+        <StackLayout  Margin="30">
+            <Label x:Name="lblInicio"
+                   Text="Inicio"
+                   VerticalOptions="CenterAndExpand" 
+                   HorizontalOptions="CenterAndExpand"
+                   FontSize="Large" />
+
+            <Label x:Name="lblError"
+                   AutomationId="ResultFail"
+                   Text=""
+                   VerticalOptions="CenterAndExpand" 
+                   HorizontalOptions="CenterAndExpand"
+                   FontSize="Large"
+                   TextColor="Red" />
+
+            <Label x:Name="lblExito"
+                   AutomationId="ResultSuc"
+                   Text=""
+                   VerticalOptions="CenterAndExpand" 
+                   HorizontalOptions="CenterAndExpand"
+                   FontSize="Large"
+                   TextColor="Green"/>
+
+            <Entry x:Name="txtCedula"
+                   AutomationId="ValueCedula"
+                   Text=""
+                   VerticalOptions="CenterAndExpand"
+                   HorizontalOptions="CenterAndExpand"
+                   WidthRequest="250"
+                   Placeholder="N. Cédula" />
+
+            <Entry x:Name="txtCorreo"
+                   AutomationId="ValueCorreo"
+                   Text=""
+                   VerticalOptions="CenterAndExpand"
+                   HorizontalOptions="CenterAndExpand"
+                   WidthRequest="250"
+                   Placeholder="Correo" />
+
+            <Entry x:Name="txtContrasenna"
+                   AutomationId="ValueContrasenna"
+                   Text=""
+                   VerticalOptions="CenterAndExpand"
+                   HorizontalOptions="CenterAndExpand"
+                   WidthRequest="250"
+                   Placeholder="Contraseña"
+                   IsPassword="true" />
+
+            <Button x:Name="btnEditarPerfil"
+                    AutomationId="EditButton"
+                    Text="Editar Perfil"
+                    VerticalOptions="Center"
+                    HorizontalOptions="CenterAndExpand"
+                    WidthRequest="200"
+                    FontSize="Medium"
+                    BackgroundColor="#b8bf35" />
+
+            <Button x:Name="btnEliminarPerfil"
+                    AutomationId="DeleteButton"
+                    Text="Eliminar Perfil"
+                    VerticalOptions="Center"
+                    HorizontalOptions="CenterAndExpand"
+                    WidthRequest="200"
+                    FontSize="Medium"
+                    BackgroundColor="#f74e30" />
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

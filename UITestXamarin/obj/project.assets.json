@@ -1,0 +1,346 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.6.1": {
+      "NUnit/3.12.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/nunit.framework.dll": {}
+        },
+        "runtime": {
+          "lib/net45/nunit.framework.dll": {}
+        },
+        "build": {
+          "build/NUnit.props": {}
+        }
+      },
+      "NUnit3TestAdapter/3.13.0": {
+        "type": "package",
+        "build": {
+          "build/net35/NUnit3TestAdapter.props": {}
+        }
+      },
+      "Xamarin.UITest/3.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Xamarin.UITest.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Xamarin.UITest.dll": {}
+        }
+      },
+      "XamarinApp.Android/1.0.0": {
+        "type": "project",
+        "framework": "Unsupported,Version=v0.0",
+        "compile": {
+          "bin/placeholder/XamarinApp.Android.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/XamarinApp.Android.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.6.1/win": {
+      "NUnit/3.12.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/nunit.framework.dll": {}
+        },
+        "runtime": {
+          "lib/net45/nunit.framework.dll": {}
+        },
+        "build": {
+          "build/NUnit.props": {}
+        }
+      },
+      "NUnit3TestAdapter/3.13.0": {
+        "type": "package",
+        "build": {
+          "build/net35/NUnit3TestAdapter.props": {}
+        }
+      },
+      "Xamarin.UITest/3.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Xamarin.UITest.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Xamarin.UITest.dll": {}
+        }
+      },
+      "XamarinApp.Android/1.0.0": {
+        "type": "project",
+        "framework": "Unsupported,Version=v0.0",
+        "compile": {
+          "bin/placeholder/XamarinApp.Android.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/XamarinApp.Android.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.6.1/win-x64": {
+      "NUnit/3.12.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/nunit.framework.dll": {}
+        },
+        "runtime": {
+          "lib/net45/nunit.framework.dll": {}
+        },
+        "build": {
+          "build/NUnit.props": {}
+        }
+      },
+      "NUnit3TestAdapter/3.13.0": {
+        "type": "package",
+        "build": {
+          "build/net35/NUnit3TestAdapter.props": {}
+        }
+      },
+      "Xamarin.UITest/3.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Xamarin.UITest.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Xamarin.UITest.dll": {}
+        }
+      },
+      "XamarinApp.Android/1.0.0": {
+        "type": "project",
+        "framework": "Unsupported,Version=v0.0",
+        "compile": {
+          "bin/placeholder/XamarinApp.Android.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/XamarinApp.Android.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.6.1/win-x86": {
+      "NUnit/3.12.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/nunit.framework.dll": {}
+        },
+        "runtime": {
+          "lib/net45/nunit.framework.dll": {}
+        },
+        "build": {
+          "build/NUnit.props": {}
+        }
+      },
+      "NUnit3TestAdapter/3.13.0": {
+        "type": "package",
+        "build": {
+          "build/net35/NUnit3TestAdapter.props": {}
+        }
+      },
+      "Xamarin.UITest/3.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Xamarin.UITest.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Xamarin.UITest.dll": {}
+        }
+      },
+      "XamarinApp.Android/1.0.0": {
+        "type": "project",
+        "framework": "Unsupported,Version=v0.0",
+        "compile": {
+          "bin/placeholder/XamarinApp.Android.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/XamarinApp.Android.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "NUnit/3.12.0": {
+      "sha512": "3oJTrcUcT9wmweBUwgUf0f1XIYy6RZq2ziV+RM95HMKAJGsHPN2i3MKK1dAPvDPMRLz799Llj4eyu/STB9Q7OA==",
+      "type": "package",
+      "path": "nunit/3.12.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "CHANGES.md",
+        "LICENSE.txt",
+        "NOTICES.txt",
+        "build/NUnit.props",
+        "lib/net35/nunit.framework.dll",
+        "lib/net35/nunit.framework.pdb",
+        "lib/net35/nunit.framework.xml",
+        "lib/net40/nunit.framework.dll",
+        "lib/net40/nunit.framework.pdb",
+        "lib/net40/nunit.framework.xml",
+        "lib/net45/nunit.framework.dll",
+        "lib/net45/nunit.framework.pdb",
+        "lib/net45/nunit.framework.xml",
+        "lib/netstandard1.4/nunit.framework.dll",
+        "lib/netstandard1.4/nunit.framework.pdb",
+        "lib/netstandard1.4/nunit.framework.xml",
+        "lib/netstandard2.0/nunit.framework.dll",
+        "lib/netstandard2.0/nunit.framework.pdb",
+        "lib/netstandard2.0/nunit.framework.xml",
+        "nunit.3.12.0.nupkg.sha512",
+        "nunit.nuspec"
+      ]
+    },
+    "NUnit3TestAdapter/3.13.0": {
+      "sha512": "9OlA81APTyR/tNkapK2a2dlz4jFra7/Bm1eYT1P1lIq2cJv4OYtWD5uHj3XsO1dz3btiwbIFrWBtZNr/ebRhSw==",
+      "type": "package",
+      "path": "nunit3testadapter/3.13.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "build/net35/NUnit3.TestAdapter.dll",
+        "build/net35/NUnit3.TestAdapter.pdb",
+        "build/net35/NUnit3TestAdapter.props",
+        "build/net35/nunit.engine.api.dll",
+        "build/net35/nunit.engine.dll",
+        "build/netcoreapp1.0/NUnit3.TestAdapter.dll",
+        "build/netcoreapp1.0/NUnit3.TestAdapter.pdb",
+        "build/netcoreapp1.0/NUnit3TestAdapter.props",
+        "build/netcoreapp1.0/nunit.engine.netstandard.dll",
+        "nunit3testadapter.3.13.0.nupkg.sha512",
+        "nunit3testadapter.nuspec"
+      ]
+    },
+    "Xamarin.UITest/3.0.3": {
+      "sha512": "hFrW7UPA1QrGjIRmb8uNUh0lsF7BPFRXLA0EkGasDu+UAb5zhjYArK+sRG3tdDggXaAAmC1fVK3R8lH6+GLmxQ==",
+      "type": "package",
+      "path": "xamarin.uitest/3.0.3",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "ThirdPartyNotices.txt",
+        "lib/net45/Xamarin.UITest.dll",
+        "lib/net45/Xamarin.UITest.xml",
+        "lib/portable-net45+win8+wp8/Xamarin.UITest.dll",
+        "lib/portable-net45+win8+wp8/Xamarin.UITest.xml",
+        "tools/test-cloud.exe",
+        "xamarin.uitest.3.0.3.nupkg.sha512",
+        "xamarin.uitest.nuspec"
+      ]
+    },
+    "XamarinApp.Android/1.0.0": {
+      "type": "project",
+      "path": "../XamarinApp/XamarinApp.Android/XamarinApp.Android.csproj",
+      "msbuildProject": "../XamarinApp/XamarinApp.Android/XamarinApp.Android.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.6.1": [
+      "NUnit >= 3.12.0",
+      "NUnit3TestAdapter >= 3.13.0",
+      "Xamarin.UITest >= 3.0.3",
+      "XamarinApp.Android >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/Users/pinkfloyd/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/pinkfloyd/Documents/XamarinAppv2/XamarinApp/UITestXamarin/UITestXamarin.csproj",
+      "projectName": "UITestXamarin",
+      "projectPath": "/Users/pinkfloyd/Documents/XamarinAppv2/XamarinApp/UITestXamarin/UITestXamarin.csproj",
+      "packagesPath": "/Users/pinkfloyd/.nuget/packages/",
+      "outputPath": "/Users/pinkfloyd/Documents/XamarinAppv2/XamarinApp/UITestXamarin/obj/",
+      "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
+      "configFilePaths": [
+        "/Users/pinkfloyd/.config/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net461"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net461": {
+          "projectReferences": {
+            "/Users/pinkfloyd/Documents/XamarinAppv2/XamarinApp/XamarinApp/XamarinApp.Android/XamarinApp.Android.csproj": {
+              "projectPath": "/Users/pinkfloyd/Documents/XamarinAppv2/XamarinApp/XamarinApp/XamarinApp.Android/XamarinApp.Android.csproj"
+            }
+          }
+        }
+      }
+    },
+    "frameworks": {
+      "net461": {
+        "dependencies": {
+          "NUnit": {
+            "target": "Package",
+            "version": "[3.12.0, )"
+          },
+          "NUnit3TestAdapter": {
+            "target": "Package",
+            "version": "[3.13.0, )"
+          },
+          "Xamarin.UITest": {
+            "target": "Package",
+            "version": "[3.0.3, )"
+          }
+        }
+      }
+    },
+    "runtimes": {
+      "win": {
+        "#import": []
+      },
+      "win-x64": {
+        "#import": []
+      },
+      "win-x86": {
+        "#import": []
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project XamarinApp.Android is not compatible with net461 (.NETFramework,Version=v4.6.1). Project XamarinApp.Android supports: monoandroid90 (MonoAndroid,Version=v9.0)",
+      "libraryId": "XamarinApp.Android",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.6.1"
+      ]
+    },
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project XamarinApp.Android is not compatible with net461 (.NETFramework,Version=v4.6.1) / win. Project XamarinApp.Android supports: monoandroid90 (MonoAndroid,Version=v9.0)",
+      "libraryId": "XamarinApp.Android",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.6.1/win"
+      ]
+    },
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project XamarinApp.Android is not compatible with net461 (.NETFramework,Version=v4.6.1) / win-x64. Project XamarinApp.Android supports: monoandroid90 (MonoAndroid,Version=v9.0)",
+      "libraryId": "XamarinApp.Android",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.6.1/win-x64"
+      ]
+    },
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project XamarinApp.Android is not compatible with net461 (.NETFramework,Version=v4.6.1) / win-x86. Project XamarinApp.Android supports: monoandroid90 (MonoAndroid,Version=v9.0)",
+      "libraryId": "XamarinApp.Android",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.6.1/win-x86"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "version": 2,
+  "dgSpecHash": "40x+py2+aLD/Z7iGH+6Ea0oC2AdhFfaS6jRifJi8fAYXnvojjmPlkcvFX6cKmZAIbWYdpk+p0lVohoDEjrGVJg==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\kvcas\\Documents\\QA\\XamarinAppv2\\XamarinApp\\UITestXamarin\\UITestXamarin.csproj",
+  "expectedPackageFiles": [
+    "C:\\Microsoft\\Xamarin\\NuGet\\nunit\\3.12.0\\nunit.3.12.0.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\nunit3testadapter\\3.13.0\\nunit3testadapter.3.13.0.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.uitest\\3.0.3\\xamarin.uitest.3.0.3.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "El proyecto XamarinApp.Android no es compatible con net461 (.NETFramework,Version=v4.6.1). El proyecto XamarinApp.Android admite: monoandroid90 (MonoAndroid,Version=v9.0)",
+      "libraryId": "XamarinApp.Android",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.6.1"
+      ]
+    },
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "El proyecto XamarinApp.Android no es compatible con net461 (.NETFramework,Version=v4.6.1) / win. El proyecto XamarinApp.Android admite: monoandroid90 (MonoAndroid,Version=v9.0)",
+      "libraryId": "XamarinApp.Android",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.6.1/win"
+      ]
+    },
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "El proyecto XamarinApp.Android no es compatible con net461 (.NETFramework,Version=v4.6.1) / win-x64. El proyecto XamarinApp.Android admite: monoandroid90 (MonoAndroid,Version=v9.0)",
+      "libraryId": "XamarinApp.Android",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.6.1/win-x64"
+      ]
+    },
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "El proyecto XamarinApp.Android no es compatible con net461 (.NETFramework,Version=v4.6.1) / win-x86. El proyecto XamarinApp.Android admite: monoandroid90 (MonoAndroid,Version=v9.0)",
+      "libraryId": "XamarinApp.Android",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.6.1/win-x86"
+      ]
+    }
+  ]
+}
